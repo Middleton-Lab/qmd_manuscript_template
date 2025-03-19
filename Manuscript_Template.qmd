@@ -1,23 +1,13 @@
 ---
 title: Lorem posuere tempus pulvinar lacus diam vulputate lacinia
 author: "Alice Author, Bob Author"
-date: 'Last updated: `r Sys.Date()`'
-output:
-  bookdown::pdf_document2:
-    fig_caption: yes
-    fig_height: 3
-    fig_width: 6.5
-    includes:
-      in_header: header.tex
-    latex_engine: xelatex
-    number_sections: yes
-    toc: no
-  bookdown::word_document2:
-    fig_caption: yes
-    fig_height: 3
-    fig_width: 5
-    highlight: default
-    reference_docx: word_styles.docx
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+  docx:
+    reference-doc: word_styles.docx
 documentclass: article
 fontsize: 12pt
 geometry: margin=1in
@@ -110,14 +100,14 @@ Consectetur pellentesque condimentum sagittis inceptos sapien quam mus nisi? Cur
 
 ## Materials
 
-Ipsum mus suscipit gravida dapibus sem parturient nec est orci rutrum. Sociosqu arcu platea convallis inceptos ultricies nec curae vehicula porta tortor. Habitant proin suspendisse venenatis facilisis metus magnis class senectus dictum venenatis turpis? Euismod tristique tincidunt sed hac platea (@tbl-example). Consectetur praesent volutpat pellentesque dapibus dui leo placerat turpis platea! Pharetra non habitant iaculis vitae vivamus rhoncus molestie nisl venenatis? Ornare auctor in primis risus convallis nisi? Habitant aliquet fames sociosqu curae mi massa in libero montes egestas.
+Ipsum mus suscipit gravida dapibus sem parturient nec est orci rutrum. Sociosqu arcu platea convallis inceptos ultricies nec curae vehicula porta tortor. Habitant proin suspendisse venenatis facilisis metus magnis class senectus dictum venenatis turpis? Euismod tristique tincidunt sed hac platea (@tbl-example). Consectetur praesent volutpat pellentesque dapibus dui leo placerat turpis platea! Pharetra non habitant iaculis vitae vivamus rhoncus molestie nisl venenatis? Ornare auctor in primis risus convallis nisi?
 
 ```{r}
 #| label: tbl-example
 #| echo: false
 #| warning: false
 #| message: false
-#| tbl-cap: "Caption for Table 1."
+#| tbl-cap: "Caption for Table 1. Habitant aliquet fames sociosqu curae mi massa in libero montes egestas."
 
 set.seed(873624)
 
