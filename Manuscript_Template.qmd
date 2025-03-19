@@ -1,6 +1,6 @@
 ---
 title: Lorem posuere tempus pulvinar lacus diam vulputate lacinia
-author: "Alice Author, Bob Author"
+author: "First Author, Second Author"
 format:
   pdf:
     toc: false
@@ -64,6 +64,8 @@ Consectetur fringilla fringilla curabitur vitae vulputate aliquam interdum eros 
 #| fig-width: 10
 #| fig-cap: "Scelerisque vitae sodales sapien sed lobortis mauris Glasspool and Scott [-@Glasspool2010-ci]. Lorem erat condimentum platea risus non porta tortor nam libero. Accumsan varius magnis habitasse senectus egestas torquent porttitor praesent condimentum phasellus turpis class praesent Nesbitt [-@Nesbitt2011-uc]."
 
+set.seed(361263)
+
 tibble(x = runif(200),
        y = 2 * x + rnorm(200)) %>% 
   ggplot(aes(x = x, y = y)) +
@@ -82,14 +84,27 @@ Lorem primis tortor aptent montes nisi dui magnis netus? Fusce aptent auctor eni
 #| message: FALSE
 #| fig.height: 3
 #| fig.width: 10
-#| fig.cap: "Sit luctus magna lacinia proin mi venenatis orci torquent suspendisse lobortis leo est urna. Praesent volutpat mattis mattis tellus aliquet Glasspool and Scott [-@Glasspool2010-ci]!"
+#| fig.cap: "Sit luctus magna lacinia proin mi venenatis orci torquent suspendisse lobortis leo est urna. Praesent volutpat mattis mattis tellus aliquet Glasspool and Scott [-@Glasspool2010-ci]."
 
-tibble(x = runif(200),
-       y = -2 * x + rnorm(200)) %>% 
-  ggplot(aes(x = x, y = y)) +
-  geom_point() +
+set.seed(361263)
+DD <- tibble(x = runif(300),
+             y = -2 * x + rnorm(300))
+
+P1 <- ggplot(DD, aes(x = x, y = y)) +
+  geom_point(color = "firebrick4") +
   my_theme
 
+P2 <- ggplot(DD, aes(y)) +
+  geom_histogram(bins = 30, fill = "darkgreen") +
+  my_theme
+
+P3 <- ggplot(DD, aes(x)) +
+  geom_histogram(bins = 30, fill = "lightblue") +
+  my_theme
+
+P1 + (P2 / P3) +
+  plot_annotation(tag_levels = 'a', tag_suffix = ".") &
+    theme(plot.tag = element_text(size = 9))
 ```
 
 Adipiscing convallis non conubia vehicula magnis nisi nisl. Ligula ultrices phasellus imperdiet habitasse etiam etiam tellus duis malesuada lacinia tellus felis. Luctus faucibus mus at aenean cum ligula augue molestie lacus sagittis. Sociis congue velit lacus taciti vulputate nostra interdum cum netus aliquet lectus sodales etiam. Mollis id diam aptent dis etiam arcu. Penatibus sodales sociosqu sed montes maecenas praesent molestie venenatis mauris blandit! Magnis arcu varius lacinia duis turpis nascetur ridiculus curabitur. Egestas platea tincidunt duis pulvinar pulvinar proin malesuada.
