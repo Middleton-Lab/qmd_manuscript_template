@@ -42,6 +42,7 @@ my_theme <- theme(
 )
 ```
 
+
 # Abstract
 
 Ipsum fusce at sapien arcu eros iaculis nunc erat torquent ante. Eu vivamus vel cubilia per montes nostra proin sagittis cras. Felis non consequat imperdiet tristique sapien risus id duis taciti. Dis mollis pulvinar congue rhoncus erat nisi diam phasellus pharetra fusce imperdiet at molestie hendrerit hendrerit?
@@ -49,6 +50,7 @@ Ipsum fusce at sapien arcu eros iaculis nunc erat torquent ante. Eu vivamus vel 
 Dolor sociis quisque sapien erat mi! Per a taciti mollis massa himenaeos quam porttitor dis curae cras tortor sed. Phasellus torquent ante libero nascetur scelerisque quisque sagittis molestie volutpat sapien parturient.
 
 \newpage
+
 
 # Introduction
 
@@ -111,7 +113,9 @@ Adipiscing convallis non conubia vehicula magnis nisi nisl. Ligula ultrices phas
 
 Consectetur pellentesque condimentum sagittis inceptos sapien quam mus nisi? Curabitur sociosqu urna vestibulum viverra suscipit? Odio eros iaculis sollicitudin tempus ultrices est pharetra taciti netus morbi malesuada cum! Aptent mollis mattis nisi commodo eu mattis? Cras venenatis ad venenatis convallis tempor curae auctor natoque egestas! Primis aliquet est blandit bibendum eros lacus accumsan erat platea ornare risus. Vitae convallis dictumst dis cum accumsan ullamcorper inceptos cursus. Conubia dis mollis tellus metus urna?
 
+
 # Materials and Methods
+
 
 ## Materials
 
@@ -188,31 +192,39 @@ Lorem nec phasellus justo integer dapibus nibh vel himenaeos eu. Placerat erat c
 
 Lorem habitasse montes volutpat eu nullam est fermentum tristique. Venenatis justo dis ad dui quam venenatis interdum. Nam tempus sed magna risus at. Porttitor convallis hac habitant ante eget ad placerat tortor facilisis hac urna suspendisse quisque vulputate vulputate pretium porta!
 
+
 # Results
+
 
 ## Subsection 1
 
 Elit ligula aliquam rhoncus cubilia neque maecenas varius vulputate imperdiet fringilla sapien lacinia habitasse? Congue parturient quis dignissim enim accumsan conubia bibendum tellus malesuada viverra. Enim tortor dis justo dui purus mauris nec metus! Sagittis tincidunt varius bibendum vivamus ut sodales curae nibh accumsan aliquet rutrum tristique.
 
+
 ### Subsubsection 1
 
 Adipiscing mattis diam molestie rutrum hendrerit iaculis cubilia morbi velit. Ornare nullam imperdiet viverra ante congue bibendum nec massa fringilla auctor. Torquent lectus dui lobortis fermentum phasellus dapibus erat tristique libero. Magna ante facilisi egestas non morbi ultrices cras taciti sapien.
+
 
 ### Subsubsection 2
 
 Adipiscing mattis diam molestie rutrum hendrerit iaculis cubilia morbi velit. Ornare nullam imperdiet viverra ante congue bibendum nec massa fringilla auctor. Torquent lectus dui lobortis fermentum phasellus dapibus erat tristique libero. Magna ante facilisi egestas non morbi ultrices cras taciti sapien.
 
+
 ## Subsection 2
 
 Lorem enim augue dignissim himenaeos placerat lacinia himenaeos. Dictumst elementum cum integer class blandit a ullamcorper (@fig-cat1 and @fig-cat2). Nibh hac suspendisse imperdiet cursus diam nec aenean nulla pharetra interdum dapibus. Molestie posuere posuere congue nibh ligula parturient himenaeos elementum accumsan molestie dui ad tincidunt lacus.
+
 
 # Discussion
 
 Ipsum torquent et curabitur hendrerit neque turpis cras iaculis ligula nullam! Vivamus blandit cursus curabitur convallis cum laoreet et phasellus velit porta quis posuere. Tempus facilisi placerat scelerisque dui interdum mauris rhoncus primis eros massa dis nascetur. Na nascetur.
 
+
 # Conclusions
 
 Amet tempus vehicula turpis pellentesque inceptos lectus feugiat. Pellentesque sociis vivamus conubia nostra bibendum mus tristique fusce vestibulum magnis dapibus nunc? Ornare tempor potenti dictum parturient eu class turpis ligula dignissim feugiat ut! Cum risus!
+
 
 # Acknowledgments
 
