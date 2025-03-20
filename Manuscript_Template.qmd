@@ -69,7 +69,7 @@ Consectetur fringilla fringilla curabitur vitae vulputate aliquam interdum eros 
 set.seed(361263)
 
 tibble(x = runif(200),
-       y = 2 * x + rnorm(200)) %>% 
+       y = 2 * x + rnorm(200)) %>%
   ggplot(aes(x = x, y = y)) +
   geom_point() +
   my_theme
@@ -126,7 +126,7 @@ Ipsum mus suscipit gravida dapibus sem parturient nec est orci rutrum. Sociosqu 
 #| echo: false
 #| warning: false
 #| message: false
-#| tbl-cap: "Caption for Table 1. Habitant aliquet fames sociosqu curae mi massa in libero montes egestas."
+#| tbl-cap: "Habitant aliquet fames sociosqu curae mi massa in libero montes egestas."
 
 set.seed(873624)
 
@@ -173,13 +173,13 @@ cat <- image_read("https://media.wired.com/photos/5cdefc28b2569892c06b2ae4/maste
 
 img <- ggplot() + background_image(cat) + coord_fixed()
 
-p1 <- ggplot(tibble(x = rnorm(10), y = rnorm(10)), aes(x, y)) + 
+p1 <- ggplot(tibble(x = rnorm(10), y = rnorm(10)), aes(x, y)) +
   geom_point() +
   my_theme
-p2 <- ggplot(tibble(x = rnorm(10), y = rnorm(10)), aes(x, y)) + 
+p2 <- ggplot(tibble(x = rnorm(10), y = rnorm(10)), aes(x, y)) +
   geom_point() +
   my_theme
-p3 <- ggplot(tibble(x = rnorm(10), y = rnorm(10)), aes(x, y)) + 
+p3 <- ggplot(tibble(x = rnorm(10), y = rnorm(10)), aes(x, y)) +
   geom_point() +
   my_theme
 
